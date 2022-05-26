@@ -31,7 +31,7 @@ const getWeather = async (URLAddress) => {
     document.getElementById("api-image").innerHTML =
       "<img src='http://openweathermap.org/img/wn/" +
       image +
-      "@2x.png' alt='Weather Icon' width='10%'><br><h5>";
+      "@2x.png' alt='Weather Icon' width='60%'><br><h5>";
     (">");
 
     if (request.status >= 200 && request.status < 400) {
