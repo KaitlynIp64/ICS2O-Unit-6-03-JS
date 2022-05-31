@@ -29,7 +29,7 @@ const getWeather = async (URLAddress) => {
 
     console.log(jsonData.weather);
     document.getElementById("api-image").innerHTML =
-      "<img src='http://openweathermap.org/img/wn/" +
+      "<img src='https://openweathermap.org/img/wn/" +
       image +
       "@2x.png' alt='Weather Icon' width='60%'><br><h5>";
     (">");
